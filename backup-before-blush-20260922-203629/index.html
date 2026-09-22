@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#28131f">
+  <meta name="description" content="Favour Kirema — software developer and product designer in Nairobi. Thoughtful digital experiences, built with intention.">
+  <title>Favour Kirema — Software Developer</title>
+  <link rel="preload" href="fonts/font-1.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="images/world.webp" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="script.js" defer></script>
+</head>
+<body data-view="home">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Favour Kirema — Home">favour<span>.</span></a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="#home" aria-current="page">Home</a><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#journal">Journal</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="header-contact" href="#contact">Let’s connect <img class="icon" src="icons/arrow.svg" alt=""></a>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="view home-view" id="home" aria-labelledby="home-title" data-view="home">
+      <div class="world" aria-hidden="true">
+        <img class="world-image" src="images/world.webp" alt="" width="1672" height="940" fetchpriority="high">
+        <div class="balloon-layer"><img class="balloon balloon-one" src="images/balloon.webp" alt="" width="1024" height="1536"><img class="balloon balloon-two" src="images/balloon.webp" alt="" width="1024" height="1536"><img class="balloon balloon-three" src="images/balloon.webp" alt="" width="1024" height="1536"></div>
+      </div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow">Nairobi, Kenya <span>—</span> Open to opportunities</p>
+        <h1 id="home-title" tabindex="-1">Favour<br> <em>Kirema.</em></h1>
+        <p class="hero-statement">I build elegant, thoughtful digital experiences that bring ideas to life.</p>
+        <div class="hero-actions">
+          <a class="button button-primary magnetic" href="#projects">View My Work <img class="icon arrow" src="icons/forward.svg" alt=""></a>
+          <a class="button button-glass" href="#contact"><img class="icon" src="icons/mail.svg" alt=""> Get in Touch</a>
+        </div>
+      </div>
+      <div class="home-note"><span class="status-light" aria-hidden="true"></span>Ready to build what’s next</div>
+      <button class="motion-toggle" id="motionToggle" type="button" aria-pressed="false"><img class="icon" src="icons/pause.svg" alt=""><span>Pause motion</span></button>
+      <div class="roles-marquee" aria-label="Software Developer, Product Designer, Creative Technologist">
+        <div class="marquee-track" aria-hidden="true">
+          <div class="marquee-group"><span>Software Developer</span><b>✦</b><span>Product Designer</span><b>✦</b><span>Creative Technologist</span><b>✦</b></div>
+          <div class="marquee-group"><span>Software Developer</span><b>✦</b><span>Product Designer</span><b>✦</b><span>Creative Technologist</span><b>✦</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="view inner-view about-view" id="about" aria-labelledby="about-title" data-view="about" hidden>
+      <div class="page-heading"><p class="eyebrow">01 / Who I am</p><h1 id="about-title" tabindex="-1">Crafting code<br> with <em>intention.</em></h1></div>
+      <div class="about-layout">
+        <aside class="profile-panel"><p class="eyebrow">A little about me</p><p class="editorial-note">Code. Design.<br> <em>Possibility.</em></p><dl class="personal-details"><div><dt>Education</dt><dd>Moringa School — Software Development Graduate</dd></div><div><dt>Status</dt><dd>Graduate • Open to Opportunities</dd></div><div><dt>Location</dt><dd>Nairobi, Kenya</dd></div><div><dt>Focus</dt><dd>Software Development &amp; Digital Product Development</dd></div><div><dt>Email</dt><dd><a href="mailto:kananafavour5@gmail.com">kananafavour5@gmail.com</a></dd></div></dl></aside>
+        <div class="about-copy prose">
+          <p class="lead">Hey! I'm Favour — a software developer and Moringa School graduate based in Nairobi. I enjoy turning ideas into thoughtful, functional digital experiences and building solutions that are both useful and intuitive.</p>
+          <p>My journey in technology has grown from front-end development into broader software development, with experience building responsive interfaces, interactive web applications, APIs, and practical software solutions. I enjoy learning new technologies, solving problems, and turning ideas into products people can actually use.</p>
+          <p>With a strong foundation in software development and hands-on experience building real-world applications, I combine technical skills with a designer's eye to create solutions that are functional, responsive, and meaningful.</p>
+          
+          <a class="text-link" href="#journal">Follow my journey <img class="icon" src="icons/forward.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="page-bottom"><span>Thoughtful ideas. Practical solutions.</span><a href="#projects">Explore my work <img class="icon" src="icons/arrow.svg" alt=""></a></div>
+    </section>
+
+    <section class="view inner-view projects-view" id="projects" aria-labelledby="projects-title" data-view="projects" hidden>
+      <div class="page-heading split-heading"><div><p class="eyebrow">02 / Selected work</p><h1 id="projects-title" tabindex="-1">Ideas brought<br> to <em>life.</em></h1></div><a class="text-link" href="https://github.com/kananafavour5-byte" target="_blank" rel="noopener noreferrer">View all on GitHub <img class="icon" src="icons/arrow.svg" alt=""></a></div>
+      <!-- MamaCare content is intentionally preserved. Replace its copy and media only after the updated README/screenshots arrive. -->
+      <article class="featured-project" id="mamacare">
+        <div class="project-copy"><p class="eyebrow">01 / Featured project</p><h2>MamaCare <em>Kenya</em></h2><p class="project-description">MamaCare Kenya is a digital maternal health platform created to make trusted health information, care discovery, and support easier to access throughout pregnancy and early motherhood.</p><ul class="feature-list"><li>Pregnancy Tracking</li><li>Reliable Guidance</li><li>Helpful Guides</li><li>Find Care</li><li>Emergency Support</li></ul><a class="text-link" href="https://mama-care-kenya.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo <img class="icon" src="icons/arrow.svg" alt=""></a></div>
+        <div class="project-gallery" role="region" aria-label="MamaCare presentation">
+          <button class="gallery-image-button" data-image="images/mamacare-slide-1.png" data-caption="MamaCare Kenya presentation slide 1" aria-label="Enlarge current MamaCare slide"><img id="mamacareImage" src="images/mamacare-slide-1.webp" width="1692" height="929" alt="MamaCare Kenya presentation slide 1" loading="lazy"></button>
+          <div class="gallery-controls"><span id="slideStatus" aria-live="polite">01 / 03</span><div class="gallery-dots"><button type="button" data-slide="0" aria-label="Show slide 1" aria-pressed="true"></button><button type="button" data-slide="1" aria-label="Show slide 2" aria-pressed="false"></button><button type="button" data-slide="2" aria-label="Show slide 3" aria-pressed="false"></button></div><span class="gallery-hint">Click image to expand</span></div>
+        </div>
+      </article>
+      <article class="project-row" id="church">
+        <button class="project-media" data-image="images/dci-preview.png" data-caption="Church Website" aria-label="Enlarge Church Website screenshot"><img src="images/dci-preview.webp" alt="Church Website" width="1894" height="880" loading="lazy"><span class="image-action">View image <img class="icon" src="icons/arrow.svg" alt=""></span></button>
+        <div class="project-copy"><p class="eyebrow">02 / Project</p><h2>Church <em>Website</em></h2><p class="project-description">A modern church website designed to create a welcoming online experience for its community, with a clean interface and responsive presentation across devices.</p><ul class="tech-list"><li>React</li><li>JavaScript</li><li>CSS</li><li>Responsive UI</li></ul><div class="project-links"><a class="text-link" href="https://church-site-roan.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo <img class="icon" src="icons/arrow.svg" alt=""></a><a class="text-link muted-link" href="https://github.com/kananafavour5-byte/church-site" target="_blank" rel="noopener noreferrer">GitHub <img class="icon" src="icons/github.svg" alt=""></a></div></div>
+      </article>
+      <article class="project-row reverse" id="klipsan">
+        <button class="project-media" data-image="images/klipsan.png" data-caption="Klipsan Athletic Club" aria-label="Enlarge Klipsan Athletic Club screenshot"><img src="images/klipsan.webp" alt="Klipsan Athletic Club" width="1915" height="874" loading="lazy"><span class="image-action">View image <img class="icon" src="icons/arrow.svg" alt=""></span></button>
+        <div class="project-copy"><p class="eyebrow">03 / Project</p><h2>Klipsan<br> <em>Athletic Club</em></h2><p class="project-description">A premium fitness club website built with React, TypeScript, and Tailwind CSS. Designed for the Kenyan market, it features smooth animations, interactive schedules, trainer profiles, membership plans, and a fully responsive, modern user interface.</p><ul class="tech-list"><li>React</li><li>TypeScript</li><li>Tailwind CSS</li><li>Framer Motion</li></ul><a class="text-link" href="https://fitness-demo-sooty.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo <img class="icon" src="icons/arrow.svg" alt=""></a><!-- Original GitHub URL was YOUR_GITHUB_REPO; await real URL. --></div>
+      </article>
+      <article class="project-row" id="faxel">
+        <button class="project-media" data-image="images/faxel.png" data-caption="Faxel Interiors" aria-label="Enlarge Faxel Interiors screenshot"><img src="images/faxel.webp" alt="Faxel Interiors" width="1899" height="871" loading="lazy"><span class="image-action">View image <img class="icon" src="icons/arrow.svg" alt=""></span></button>
+        <div class="project-copy"><p class="eyebrow">04 / Project</p><h2>Faxel <em>Interiors</em></h2><p class="project-description">A modern interior design company website built with React and Vite. Features a responsive layout, clean user interface, and elegant presentation of interior design services and projects.</p><ul class="tech-list"><li>React</li><li>Vite</li><li>JavaScript</li><li>CSS</li></ul><div class="project-links"><a class="text-link" href="https://faxel-interiors.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo <img class="icon" src="icons/arrow.svg" alt=""></a><a class="text-link muted-link" href="https://github.com/kananafavour5-byte/faxel-interiors" target="_blank" rel="noopener noreferrer">GitHub <img class="icon" src="icons/github.svg" alt=""></a></div></div>
+      </article>
+      <div class="page-bottom"><span>New projects are on the way. Stay tuned.</span><a href="#contact">Let’s build something <img class="icon" src="icons/arrow.svg" alt=""></a></div>
+    </section>
+
+    <section class="view inner-view skills-view" id="skills" aria-labelledby="skills-title" data-view="skills" hidden>
+      <div class="page-heading"><p class="eyebrow">03 / Skills &amp; services</p><h1 id="skills-title" tabindex="-1">What I can<br> <em>build.</em></h1></div>
+      <div class="skills-layout"><div class="skill-intro"><p class="eyebrow">Technical skills</p><p class="editorial-note">A developer’s mindset.<br> A designer’s <em>eye.</em></p><a class="text-link" href="#projects">See them in practice <img class="icon" src="icons/arrow.svg" alt=""></a></div><dl class="skill-groups"><div><dt>Frontend Development</dt><dd>HTML <span>CSS</span> JavaScript <span>TypeScript</span> React</dd></div><div><dt>Backend &amp; Data</dt><dd>Python <span>Flask</span> SQL <span>PostgreSQL</span> REST APIs</dd></div><div><dt>Product &amp; Design</dt><dd>Figma <span>UI/UX Design</span> Product Design</dd></div><div><dt>Emerging</dt><dd>AI Automation</dd></div></dl></div>
+      <div class="services"><div class="services-heading"><p class="eyebrow">What I offer</p><h2>From idea<br> to <em>experience.</em></h2></div><div class="service-list">
+        <details open><summary><span>01</span>Product Design &amp; UI/UX<img class="icon" src="icons/arrow.svg" alt=""></summary><p>I design intuitive digital experiences that bring together user needs, visual clarity, and business goals. From early concepts and user flows to polished interfaces, I create designs that are thoughtful, practical, and ready to build.</p></details>
+        <details><summary><span>02</span>Web Application Development<img class="icon" src="icons/arrow.svg" alt=""></summary><p>I build modern, responsive web applications designed around real business and user needs. Whether it's a customer-facing platform, dashboard, or custom web solution, I focus on creating reliable and intuitive digital experiences.</p></details>
+        <details><summary><span>03</span>Full-Stack Development<img class="icon" src="icons/arrow.svg" alt=""></summary><p>I develop complete web solutions across the frontend and backend, connecting interfaces, application logic, databases, and APIs. My approach focuses on building practical, maintainable applications that work together as one product.</p></details>
+        <details><summary><span>04</span>AI Integration &amp; Automation<img class="icon" src="icons/arrow.svg" alt=""></summary><p>I integrate AI-powered tools and automation into digital products and workflows to make processes more efficient and useful. From intelligent features to repetitive-task automation, I explore practical ways AI can improve how a business operates.</p></details>
+        <details><summary><span>05</span>API &amp; Third-Party Integrations<img class="icon" src="icons/arrow.svg" alt=""></summary><p>I connect web applications with APIs and third-party services to bring external tools, data, and functionality into one seamless experience. This can include connecting platforms, services, databases, and other systems that a product depends on.</p></details>
+        <details><summary><span>06</span>Website &amp; Application Optimization<img class="icon" src="icons/arrow.svg" alt=""></summary><p>I improve existing websites and applications to make them faster, more responsive, accessible, and easier to use. I focus on identifying areas for improvement and refining performance, usability, and the overall digital experience.</p></details>
+      </div></div>
+      <div class="page-bottom"><span>Software development &amp; digital product development.</span><a href="#contact">Get in touch <img class="icon" src="icons/arrow.svg" alt=""></a></div>
+    </section>
+
+    <section class="view inner-view journal-view" id="journal" aria-labelledby="journal-title" data-view="journal" hidden>
+      <div class="page-heading"><p class="eyebrow">04 / Journal — My journey</p><h1 id="journal-title" tabindex="-1">The <em>path</em><br> so far.</h1></div>
+      <div class="journey-layout"><aside class="journey-intro"><p class="eyebrow">Always learning. Always building.</p><p class="editorial-note">A continuous<br> <em>journey.</em></p><p>From exploring web development to building meaningful digital products.</p><a class="text-link" href="#projects">Explore the work <img class="icon" src="icons/arrow.svg" alt=""></a></aside><ol class="journey-list">
+        <li><p class="milestone">01 / Beginnings</p><h2>Discovering <em>Technology</em></h2><p class="journey-place">Exploring Web Development</p><p>I began exploring technology with a curiosity about how websites and digital experiences are designed and built. I developed my foundation in web development and gradually moved from learning concepts to creating my own projects.</p></li>
+        <li><p class="milestone">02 / 2026</p><h2>Software Development <em>Training</em></h2><p class="journey-place">Moringa School, Nairobi</p><p>In 2026, I completed software development training at Moringa School, developing practical skills across frontend and backend development, APIs, databases, and full-stack application development.</p></li>
+        <li><p class="milestone">03 / Practice</p><h2>Building Real-World <em>Solutions</em></h2><p class="journey-place">From Skills to Projects</p><p>I began putting my training into practice by designing and building real-world digital products. Through these projects, I combine software development with problem-solving, user experience, and thoughtful product design.</p></li>
+        <li><p class="milestone">04 / Now</p><h2>Software Developer<br> &amp; <em>Product Builder</em></h2><p class="journey-place">A Continuous Journey</p><p>As a Moringa School graduate, I am continuing to grow as a software developer by building meaningful digital products, exploring new technologies, and turning ideas into practical solutions.</p></li>
+      </ol></div><div class="page-bottom"><span>Always learning. Always building.</span><a href="#projects">See my projects <img class="icon" src="icons/arrow.svg" alt=""></a></div>
+    </section>
+
+    <section class="view inner-view contact-view" id="contact" aria-labelledby="contact-title" data-view="contact" hidden>
+      <div class="page-heading"><p class="eyebrow">05 / Say hello</p><h1 id="contact-title" tabindex="-1">Let’s <em>connect.</em></h1></div>
+      <div class="contact-layout"><div class="contact-copy"><p class="lead">Whether you have a project in mind, want to collaborate, or just want to say hi — my inbox is always open. I'd love to hear from you.</p><a class="contact-email" href="mailto:kananafavour5@gmail.com">kananafavour5@gmail.com <img class="icon" src="icons/arrow.svg" alt=""></a><dl class="contact-details"><div><dt>Based in</dt><dd>Nairobi, Kenya</dd></div><div><dt>Response time</dt><dd>Usually within 24 hours</dd></div></dl><div class="contact-socials"><a class="text-link" href="https://github.com/kananafavour5-byte" target="_blank" rel="noopener noreferrer"><img class="icon" src="icons/github.svg" alt="">GitHub</a><a class="text-link" href="https://wa.me/254798577025" target="_blank" rel="noopener noreferrer"><img class="icon" src="icons/whatsapp.svg" alt="">WhatsApp</a></div><!-- LinkedIn/Twitter links in the original pointed only to platform homepages. Restore when actual profile URLs are supplied. --></div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-pair"><div class="field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required maxlength="120" placeholder="How should I call you?" aria-describedby="nameError"><span class="field-error" id="nameError"></span></div><div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required maxlength="254" placeholder="you@example.com" aria-describedby="emailError"><span class="field-error" id="emailError"></span></div></div>
+          <div class="field"><label for="subject">Subject</label><input id="subject" name="subject" required maxlength="200" placeholder="Let’s work together" aria-describedby="subjectError"><span class="field-error" id="subjectError"></span></div>
+          <div class="field"><label for="message">Your message</label><textarea id="message" name="message" required maxlength="5000" rows="4" placeholder="Tell me about your project or idea…" aria-describedby="messageError"></textarea><span class="field-error" id="messageError"></span></div>
+          <button class="button button-primary" id="sendBtn" type="submit"><span>Send Message</span><img class="icon" src="icons/arrow.svg" alt=""></button><p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+      </div><div class="page-bottom"><span>© 2026 Favour Kirema. Designed &amp; built with love in Nairobi.</span><a href="#home">Back home <img class="icon" src="icons/arrow.svg" alt=""></a></div>
+    </section>
+  </main>
+
+  <button class="explore-trigger" id="exploreTrigger" type="button" aria-label="Explore navigation" aria-expanded="false" aria-controls="exploreMenu" aria-haspopup="dialog"><img src="icons/compass.svg" alt=""><span>Explore</span></button>
+  <dialog class="explore-menu glass" id="exploreMenu" aria-labelledby="exploreTitle"><div class="menu-heading"><p id="exploreTitle">Where to next?</p><button class="icon-button" id="closeMenu" aria-label="Close navigation" type="button"><img class="icon" src="icons/close.svg" alt=""></button></div><nav aria-label="Explore navigation"><a href="#home"><span>00</span>Home<img class="icon" src="icons/arrow.svg" alt=""></a><a href="#about"><span>01</span>About<img class="icon" src="icons/arrow.svg" alt=""></a><a href="#projects"><span>02</span>Projects<img class="icon" src="icons/arrow.svg" alt=""></a><a href="#skills"><span>03</span>Skills<img class="icon" src="icons/arrow.svg" alt=""></a><a href="#journal"><span>04</span>Journal<img class="icon" src="icons/arrow.svg" alt=""></a><a href="#contact"><span>05</span>Contact<img class="icon" src="icons/arrow.svg" alt=""></a></nav><p class="menu-footer">Favour Kirema · Nairobi, KE</p></dialog>
+  <dialog class="image-viewer glass" id="imageViewer" aria-labelledby="viewerTitle"><header><h2 id="viewerTitle"></h2><button class="icon-button" id="closeViewer" type="button" aria-label="Close image"><img class="icon" src="icons/close.svg" alt=""></button></header><img id="viewerImage" alt=""></dialog>
+  <noscript><p class="noscript-note">All content is available below. To send a message, <a href="mailto:kananafavour5@gmail.com">email me directly</a>.</p></noscript>
+</body>
+</html>
