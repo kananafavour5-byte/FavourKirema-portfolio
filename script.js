@@ -35,7 +35,7 @@
       selectProject(projectTabs[next].dataset.project, true);
     });
   });
-  selectProject('faxel');
+  if (projectTabs.length) selectProject(projectTabs[0].dataset.project);
 
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   const finePointer = matchMedia('(hover: hover) and (pointer: fine)');
